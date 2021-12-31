@@ -1,0 +1,42 @@
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+.para {
+  font-size: 22px;
+}
+
+.button {
+  background-color: #ffc0cb;
+  color: black;
+  font-size: 20px;
+}
+
+div.text {
+  color: green;
+  font-size: 28px;
+}
+
+.small-para {
+  font-size: 12px;
+}
+
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div .child {
+  color: red;
+  font-size: 14px;
+}
+
+
+/* 
+---------------Noty my code - this was ripped straight from the repository ---------------
+If a css file was like this - its better to just re-do it imo
+*\
