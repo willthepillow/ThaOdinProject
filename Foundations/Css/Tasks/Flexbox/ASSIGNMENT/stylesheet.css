@@ -1,0 +1,42 @@
+html {
+    font: Roboto;
+    color: F9FAf8;
+}
+
+body {
+    size: 100vh;
+}
+
+.main_1, .main_2, .header_2, .header-2-color {
+    background-color: #1f2937;
+    color: white;
+}
+.main_1 {
+    display: flex;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.header {
+    font-size: 24px;
+    font: Roboto;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.header-link {
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.header_2 {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 48px;
+}
+
+.header_2-subtext {
+    font: 18px;
+}
