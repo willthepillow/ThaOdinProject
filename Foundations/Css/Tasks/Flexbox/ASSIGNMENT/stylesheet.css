@@ -2,18 +2,13 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 html {
-    font-family: Roboto;
     color: F9FAf8;
-}
-
-main_1 {
-    size: 350px;
 }
 
 .main_1 {
     background-color: #1F2937;
     color: white;
-    height: 350px;
+    height: 500px;
     align-content: flex-end
 }
 
@@ -25,15 +20,48 @@ main_1 {
     padding-left: 100px;
     flex-direction: row;
     flex-grow: 1;
+    gap: 100px;
 }
 .header-1 {
     display: flex;
     padding-top: 10px;
-
 }
 .header-link {
+    font-size: 18px;
+    color: #e5e7eb;
     display: flex;
-    row-gap: auto;
     flex-direction: row;
     padding-right: 100px;
+    flex-shrink: 100;
+}
+
+.between1-2 {
+    display: flex;
+    padding-top: 100px;
+
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-2-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-left: 100px;
+    justify-content: left;
+}
+
+.subtext-2 {
+    display: flex;
+    font-size: 24px;
+}
+
+.image-placeholder {
+    display: flex;
+    background-color: grey;
+    flex-direction: column;
 }
