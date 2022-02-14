@@ -5,11 +5,14 @@ html {
     color: F9FAf8;
 }
 
+body {
+    margin: 0;
+}
+
 .main_1 {
     background-color: #1F2937;
     color: white;
     height: 500px;
-    align-content: flex-end
 }
 
 .header {
@@ -20,7 +23,6 @@ html {
     padding-left: 100px;
     flex-direction: row;
     flex-grow: 1;
-    gap: 100px;
 }
 .header-1 {
     display: flex;
@@ -33,16 +35,18 @@ html {
     flex-direction: row;
     padding-right: 100px;
     flex-shrink: 100;
+    row-gap: 10px;
 }
+
+
 
 .between1-2 {
     display: flex;
     padding-top: 100px;
-
+    align-items: center;
 }
 
 .header-2 {
-    display: flex;
     flex-direction: column;
 }
 
@@ -58,15 +62,62 @@ html {
 .subtext-2 {
     display: flex;
     font-size: 24px;
+    padding-left: 100px;
 }
 
 .image-placeholder {
     display: flex;
-    background-color: rgba(96, 100, 155, 0.562);
-
+    background-color: rgba(150, 150, 160, 0.699);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-self: center;
 }
 
 .placeholder-subtext {
     display: flex;
     padding: 100px;
+    white-space: nowrap;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+.button-main1 {
+    display: flex;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-size: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+}
+
+.main-2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.info-header {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.image-subtext-container {
+    display: flex;
 }
