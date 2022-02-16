@@ -38,8 +38,6 @@ body {
     row-gap: 10px;
 }
 
-
-
 .between1-2 {
     display: flex;
     padding-top: 100px;
@@ -81,7 +79,7 @@ body {
     padding: 100px;
     white-space: nowrap;
 }
-.button-container {
+.button-container-1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -106,6 +104,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .info-image-splitter {
@@ -149,4 +148,91 @@ body {
     width: 160px;
     height: 160px;
     border-radius: 8px;
+}
+
+.main-quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.main-quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.quote-person {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 100px;
+    padding-right: 250px;
+    align-self: flex-end;
+}
+
+.main-4 {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container-2 {
+    display: flex;
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.text-head {
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-head-2 {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    font-size: 18px;
+    border: 3px solid #E5E7EB;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    background-color: #3882F6;  
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
+.footer-text {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #E5E7EB;
 }
