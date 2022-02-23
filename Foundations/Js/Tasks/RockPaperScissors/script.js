@@ -13,5 +13,5 @@ function userPlay() {
 }
 
 function game() {
-
+    console.log("This is on the JavaScript branch now")
 }
