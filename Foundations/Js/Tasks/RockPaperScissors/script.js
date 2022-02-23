@@ -1,4 +1,4 @@
-
+//this branch is for js - just a test
 function computerPlay(randomRPS) {
     console.log("bruh moment");
     const rockPaperScissors = ["Rock", "Paper", "Scissors"]
