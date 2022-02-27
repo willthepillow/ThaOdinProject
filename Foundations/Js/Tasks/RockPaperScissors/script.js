@@ -20,7 +20,6 @@ function playRound(userSelection, computerSelection) {
     if(userSelection === computerSelection){
         return "It's a draw";
     }
-
     else if(userSelection==="rock"){
         if(computerSelection==="scissors"){
             return "rock beats scissors, you win!";
@@ -29,7 +28,6 @@ function playRound(userSelection, computerSelection) {
             return "paper beats ... idk - you loose";
         }
     }
-
     else if(userSelection==="paper"){
         if(computerSelection==="scissors"){
             return "You lost, scissors beats paper - unlucky!!";
@@ -38,9 +36,8 @@ function playRound(userSelection, computerSelection) {
             return "You lost, rock beats paper - HAHAHA!!!";
         }
     }
-
     else if (userSelection==="scissors"){
-        if(computerSelection==="paper"){
+        if(computerSelection==="paper"){  
             return "you lucky ..., scissors beats paper";
         }
         else if (computerSelection==="rock"){
