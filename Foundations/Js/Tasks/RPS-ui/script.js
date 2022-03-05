@@ -7,7 +7,7 @@ let computerPlay = () => {
 }                           //The function above selects a random string from the array(rock, paper, scissors) and then returns it as 'computerInput'
 
 let userPlay = () => {
-    // change this so it gets inputs from buttons let userInput = window.prompt("rock, paper or scissors?");
+    let userInput = window.prompt("rock, paper or scissors?");
     userInput.toLowerCase()
     console.log(userInput)
     return userInput;
