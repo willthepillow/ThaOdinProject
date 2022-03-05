@@ -1,0 +1,10 @@
+ //The function above selects a random string from the array(rock, paper, scissors) and then returns it as 'computerInput'
+
+     // change this so it gets inputs from buttons let userInput = window.prompt("rock, paper or scissors?");
+
+/* The funtion above asks the user to input what they want to type from rock, paper, scissors - if they capitalise anything or do not input the exact 
+string then the rest of the script will not work*/
+
+//This just transfers the variables used into different names so its easyer to typ
+
+/*The function to the left just runs throught if / else if statements to play rock, paper, scissors */
