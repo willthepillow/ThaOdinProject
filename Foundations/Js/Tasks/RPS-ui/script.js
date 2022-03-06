@@ -44,4 +44,7 @@ function playRound(userSelection, computerSelection) {
         }
     }
 }                                                                               
-console.log(playRound(userSelection, computerSelection));
+//console.log(playRound(userSelection, computerSelection));
+
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World!");
