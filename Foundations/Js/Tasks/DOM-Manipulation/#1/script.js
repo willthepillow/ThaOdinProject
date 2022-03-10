@@ -14,5 +14,9 @@ let h1 = document.createElement("H1");
 let p2 = document.createElement("p2");
 h1.textContent = "test";
 p2.textContent = "ME TOO!";
-container.appendChild(h1)
-container.appendChild(p2)
+container.append(h1, p2)
+// append(h1, p2) allows me to append / add both of the elements
+// in one line another way is shown below:
+// container.appendChild(h1)
+// continer.appendChild(p2)
+// └──── the outcome is the same with either line(s) of code
