@@ -30,7 +30,7 @@ function playRound(userSelection, computerSelection) {
     }
     else if(userSelection==="paper"){
         if(computerSelection==="scissors"){
-            return "You lost, scissors beats paper - unlucky!!";          /
+            return "You lost, scissors beats paper - unlucky!!";          
         }
         else if(computerSelection==="rock"){
             return "You lost, rock beats paper - HAHAHA!!!";
