@@ -27,7 +27,7 @@
       else if(userSelection==="rock"){
           if(computerSelection==="scissors"){
             playerScore++
-            outPut("rock beats scissors bigga!!!!!!")
+            outPut("rock beats scissors!!!!!!")
           }
           else if(computerSelection==="paper"){
               outPut = "paper beats rock - you loose";
