@@ -1,3 +1,11 @@
-thead {
-border: solid 2px black;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,383;1,300&display=swap');
+
+*, main, table, tr, tbody, thead {
+border: solid 1px black;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+#jovian-planets {
+    border: solid 3px paleturquoise;
 }
